@@ -1,0 +1,71 @@
+
+/* RESET */
+/* ----------------------------------------- */
+
+/* Global reset */
+/* Based upon 'reset.css' in the Yahoo! User Interface Library: http://developer.yahoo.com/yui */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+ol, ul, li { list-style:none }
+caption, th { text-align:left }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal }
+q:before, q:after { content:''}
+
+/* Global reset-RESET */
+/* The below restores some sensible defaults */
+strong { font-weight:bold }
+em { font-style:italic }
+a img { border:none } /* Gets rid of IE's blue borders */
+
+@font-face {
+    font-family: 'heading';
+    src: url('../css/fonts/SixCaps-webfont.eot');
+    src: url('../css/fonts/SixCaps-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../css/fonts/SixCaps-webfont.woff') format('woff'),
+         url('../css/fonts/SixCaps-webfont.ttf') format('truetype'),
+         url('../css/fonts/SixCaps-webfont.svg#SixCapsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'OstrichSansMedium';
+    src: url('../css/fonts/ostrich-regular-webfont.eot');
+    src: url('../css/fonts/ostrich-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../css/fonts/ostrich-regular-webfont.woff') format('woff'),
+         url('../css/fonts/ostrich-regular-webfont.ttf') format('truetype'),
+         url('../css/fonts/ostrich-regular-webfont.svg#OstrichSansMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'TallFilmsExpandedRegular';
+    src: url('../css/fonts/tall_films_expanded-webfont.eot');
+    src: url('../css/fonts/tall_films_expanded-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../css/fonts/tall_films_expanded-webfont.woff') format('woff'),
+         url('../css/fonts/tall_films_expanded-webfont.ttf') format('truetype'),
+         url('../css/fonts/tall_films_expanded-webfont.svg#TallFilmsExpandedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* THIS FONT IS FOR ICONS*/
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../css/fonts/fontawesome-webfont.eot');
+    src: url('../css/fonts/fontawesome-webfontd41d.eot?#iefix') format('embedded-opentype'),
+	     url('../css/fonts/fontawesome-webfont.woff') format('woff'),
+		 url('../css/fonts/fontawesome-webfont.ttf') format('truetype'),
+		 url('../css/fonts/fontawesome-webfont.svg#FontAwesomeRegular') format('svg'),
+		 url('../css/fonts/fontawesome-webfont-2.svg#FontAwesomeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
